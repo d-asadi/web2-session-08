@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/dist/main.min.css">
+    <title>Document</title>
+
+    <style>
+        .h{
+            height: 70vh;
+        }
+
+        .carousel-indicators-item{
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-lg-12 bg-dark">
+                <ul class="list-group flex-row">
+                    <li class="list-group flex-row"><a href="#" class="text-light p-3">Home</a></li>
+                    <li class="list-group flex-row "><a href="#" class="text-light p-3">About</a></li>
+                    <li class="list-group flex-row "><a href="#" class="text-light p-3">Contact</a></li>
+                </ul>
+            </header>
+        </div>
+        <!-- section2 -->
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-01">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-01" data-slide-to="0" class="active carousel-indicators-item"></li>
+                        <li data-target="#carousel-01" data-slide-to="1" class="carousel-indicators-item"></li>
+                        <li data-target="#carousel-01" data-slide-to="2" class="carousel-indicators-item"></li>
+                        <li data-target="#carousel-01" data-slide-to="3" class="carousel-indicators-item"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="100">
+                            <div class="h bg-warning text-white d-flex justify-content-center align-items-center">
+                                <div class="text-center d-block">
+                                    <h4>Item 01</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="100">
+                            <div class="h bg-danger text-white d-flex justify-content-center align-items-center">
+                                <div class="text-center d-block">
+                                    <h4>Item 02</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="100">
+                            <div class="h bg-success text-white d-flex justify-content-center align-items-center">
+                                <div class="text-center d-block">
+                                    <h4>Item 03</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="100">
+                            <div class="h bg-info text-white d-flex justify-content-center align-items-center">
+                                <div class="text-center d-block">
+                                    <h4>Item 04</h4>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>    
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <a href="#carousel-01" class="carousel-control-prev" data-slide="next">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carousel-01" class="carousel-control-next" data-slide="prev">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- section3 -->
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-4 mt-4">
+                <div class="alert alert-warning mx-0" style="width: 21em">
+                    <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="row justify-content-between align-items-bottom mx-0" style="width: 21em">
+                    <button type="button" class="btn btn-info">sign in</button>
+                    <span>or</span>
+                    <button type="button" class="btn btn-info">sign up</button>
+                </div>
+            </div>
+            <div class="col-4 mt-4">
+                <div class="card" style="width: 15em">
+                    <img src="./images/unnamed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-black h5">Hi, I'm kirk Hammett.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ullam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus at nam ab rerum hic culpa!</p>
+                        <button type="button" class="btn btn-success btn-block">Follow me</button>
+                        <button type="button" class="btn btn-info btn-block">Contact me</button>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./lib/jQuery/jQuery.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
